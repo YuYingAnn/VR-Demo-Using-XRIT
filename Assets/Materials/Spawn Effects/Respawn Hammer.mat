@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Respawn 1
+  m_Name: Respawn Hammer
   m_Shader: {fileID: 4800000, guid: 77711a0a1ef662843a281ba4ecd2c54c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AO:
-        m_Texture: {fileID: 2800000, guid: 03523f63af6712646ad41baee1b94c20, type: 3}
+        m_Texture: {fileID: 2800000, guid: eaf81624b68f98f4aaaa36d871e86132, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 031e1a521d0841a4d818546f538d4276, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8af7cd7f43ed7a14fbecaa9a48af6278, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -65,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicSmooth:
-        m_Texture: {fileID: 2800000, guid: 6ea7908e3f0b52343a67b0da29642117, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 0, y: 3}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: e03c4d39be5b368479d69817f43b0190, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -146,7 +146,7 @@ Material:
     - _marchDistance: 0.5
     - _numSteps: 4
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EdgeColor1: {r: 0, g: 4.856572, b: 28.186356, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

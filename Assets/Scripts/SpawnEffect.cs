@@ -9,7 +9,7 @@ public class SpawnEffect : MonoBehaviour {
     public AnimationCurve fadeIn;
 
     ParticleSystem ps;
-    float timer = 0;
+    public float timer = 0;
     Renderer _renderer;
 
     int shaderProperty;
@@ -35,8 +35,12 @@ public class SpawnEffect : MonoBehaviour {
         }
         else
         {
+            //Edit to only play effects once.
+            enabled = false;
+            /*
             ps.Play();
             timer = 0;
+            */
         }
 
 
